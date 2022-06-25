@@ -1,0 +1,43 @@
+html{
+    font-family: tahoma;
+    background-color: gray;
+}
+#top{
+    text-align: center;
+    width: 100%;
+    background-color: darkgray;
+    padding: 20px;
+}
+#main{
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+input[type=number]{
+    width: 40px;;
+}
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type=submit]
+{
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 10px;
+    
+}
+input[type=submit]:hover{
+background-color: lightblue;  
+transform: scale(1.1);
+    
+}
+
+input[type=submit]:active{
+    background-color: red;
+    transform: scale(0.9);
+}
