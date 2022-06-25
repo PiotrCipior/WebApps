@@ -1,0 +1,114 @@
+body{
+    font-family:fantasy;
+    font-size: 14px;
+    background-image: url("tlo.jpg");
+}
+
+.naglowek{
+    background-color: green;
+    ;
+    text-align: center;
+}
+
+a{
+   font-size: 60px; 
+    padding: 150px;
+}
+
+p{
+   font-family: papyrus; 
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.pizzeria{
+    color: red;
+}
+
+.zjedz{
+    color: yellow;
+}
+
+.glowna{
+    
+   background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5));
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    margin-top: 10px;
+}
+.lewa{
+    float: left;
+    width: 50%;
+}
+.prawa{
+    float: left;
+    width: 50%;
+}
+#Pizza{
+color: red;
+}
+
+#napoje{
+    color: darkblue;
+}
+
+#sosy{
+    color: gold;
+}
+
+#dodatki{
+    color: blue;
+}
+
+#salatki{
+    color: green;
+}
+
+.wynik{
+    font-size: 21px;
+}
+
+input[type=submit]
+{
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+	border-radius: 10px;
+    
+}
+input[type=submit]:hover{
+background-color: grey;  
+transform: scale(1.1);
+    
+}
+
+input[type=submit]:active{
+    background-color: red;
+    transform: scale(0.9);
+}
+
+input[type=reset]
+{
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	width: 100px;
+	height: 30px;
+	font-size: 15px;
+    border-radius: 10px;
+}
+
+input[type=reset]:hover{
+background-color: grey;  
+transform: scale(1.1);
+    
+}
+
+input[type=reset]:active{
+    background-color: red;
+    transform: scale(0.9);
+}

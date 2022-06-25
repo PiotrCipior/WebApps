@@ -1,0 +1,48 @@
+#baner{
+    background-color: #301B5E;
+    color: white;
+    font: Arial;
+    height: 60px;
+    padding: 20px;
+}
+#pale{
+    background-color: #0193DA;
+    width: 60%;
+    height: 700px;
+    float: left;
+}
+#papr{
+    background-color: #2DAFEE;
+    width: 40%;
+    height: 700px;
+    float: left;
+    text-align: center;
+    list-style-position: inside;
+} 
+#stopka{
+    background-color: #301B5E;
+    color: white;
+    text-align: center;
+}
+img{
+    padding: 20px;
+    border-width: 1px;
+    border-color: orange;
+    border-style: dotted;
+}
+#odsy:link{
+    text-align: center;
+    color: white;
+}
+#odsy:hover{
+    color: red;
+}
+#klik{
+    background-color: orange;
+    color: white;
+    border: 0px;
+    padding: 20px;
+}
+#dane{
+    padding-left: 15px;
+}

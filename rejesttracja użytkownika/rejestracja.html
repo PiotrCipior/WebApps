@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Dodaj Użytkownika</title>
+    <link rel="stylesheet" href="styl4.css" type="text/css"> 
+</head>
+<body>
+    <div id="baner">
+        <h2>Rejestracja użytkownika</h2>
+    </div>
+    <div id="pale">
+        <h3>Wpisz swoje dane</h3>
+        <form id="dane" action="dodajDane.php" method="POST">
+           <a>Imię</a><br>
+            <input type="text" name="Imie"  /><br>
+            <a>Nazwisko</a><br>
+            <input type="text" name="Nazwisko" maxlength="40" /><br>
+            <a>Telefon</a><br>
+            <input type="number" name="Nrtel" /><br>
+            <a>Email</a><br>
+            <input type="text" name="Email" maxlength="40" /><br>
+            <input type="reset" id="klik" name="reset" value="CZYŚĆ" />
+            <input type="submit" id="klik" name="submit" value="WYŚLIJ" /><br>
+        </form>
+    </div>
+    <div id="papr">
+        <img src="ksiazki.jpg" alt="sprzedaj książkę"/><br>
+        <a id="odsy" href="kwerendy.txt">kwerendy SQL</a>
+        <h3>Kategorie</h3>
+        <ul>
+            <li>Książki</li>
+            <li>Muzyka</li>
+            <li>Filmy</li>
+        </ul>
+        <h3>Podkategorie</h3>
+        <ul>
+            <li>Biografia</li>
+            <li>Kryminał</li>
+            <li>Komiks</li>
+        </ul>
+    </div>
+    <div id="stopka">
+       <a>Portal ogłoszeniowy opracował: Twój numer PESEL</a>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+img{
+height: 100px;
+padding: 10px;
+}
+
+.baner{
+	background-color: #4E885C;
+	color: orange;
+	text-align: center;
+}
+
+.lewy{
+	background-color: #72A37D;
+	width:30%;
+	height:300px;
+	float: left;
+}
+
+.środkowy{
+	background-image: url("pizza.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#A2C3A9;
+	text-align: center;
+	width:40%;
+	height:300px;
+	float: left;
+}
+
+.prawy{
+	background-color: #72A37D;
+	text-align: center;
+	width:30%;
+	height:300px;
+	float: left;
+	list-style-position: inside;
+}
+
+.dolny{
+	background-color: #A2C3A9;
+	text-align: center;
+	height: 250px;
+	padding:130px;
+}
+
+.stopka{
+	background-color: #4E885C;
+	color: orange;
+}
+
+.odsyłacz{
+	background-color: orange;
+	color: green;
+	padding: 15px;
+}

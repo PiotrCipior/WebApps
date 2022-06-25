@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <div id="top">
+   <h3>Oblicz koszt prenumeraty czasopisma</h3>
+   </div>
+   <div id="main">
+   <p>Prenumerata miesięcznika CHIP - koszt jednego egzemplarza to 14zł</p>
+   <form>
+      <input type="checkbox" name="lata" id="lata" />prenumerata na dwa lata <br>
+      <a>i/lub</a><br>
+      <input type="number" name="miesiac" min="0" placeholder="1" id="miesiac" />miesięcy
+      <input type="button" onclick="oblicz()" value="Oblicz" />
+   </form>
+   <script>
+       function oblicz(){
+    var jeden = document.getElementById("miesiac").value;
+    var dwa = jeden*14;
+    var trzy = 24*14;
+       
+    if (document.getElementById("lata").checked==true){
+        document.getElementById("wynik").innerHTML = "Koszt prenumeraty na 2 lata wynosi "+ trzy +" zł";
+        
+        if (jeden>0){
+            var cena=dwa+trzy;
+            var val=parseInt(jeden)+24;
+            document.getElementById("wynik").innerHTML= "Koszt prenumeraty na "+val+" miesięcy wynosi "+cena+" zł";
+        }}
+        
+        else if(document.getElementById("lata").checked==false){
+        document.getElementById("wynik").innerHTML= "Koszt prenumeraty na "+jeden+" miesiace wynosi "+dwa+" zł";
+    }
+    }
+    
+    </script>
+<p id="wynik"> </p>
+   </div> 
+</body>
+</html>

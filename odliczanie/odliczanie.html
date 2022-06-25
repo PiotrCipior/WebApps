@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Odliczanie do matury</title>
+    <link rel="stylesheet" href="styl.css" type="text/css">
+    <script>
+        function ileDni(year, month, day, hours, minutes, seconds)
+        {
+            
+            var date1 = new Date();
+            var date2 = new Date(year, month-1, day, hours, minutes, seconds);
+            var diff = date2.getTime() - date1.getTime();
+            var dni = Math.floor(diff / (1000 * 60 * 60 * 24));
+            var godz = Math.floor(diff / (1000 * 60 * 60))-dni*24;
+            var min = Math.floor(diff / (1000 * 60))-(godz*60+dni*24*60);
+            var sek = Math.floor(diff / (1000))-(min*60+godz*60*60+dni*24*60*60);
+            if (dni == 1) return "1 dzień<br>"+godz+" godzin<br>"+min+" minut<br>"+sek+" sekund" ;
+            else return dni + " dni<br>"+godz+" godzin<br>"+min+" minut<br>"+sek+" sekund";
+        }
+</script>
+<script>
+    window.onload = function(){
+            document.getElementById('studniowka').innerHTML=ileDni(2023, 2, 5, 19, 0, 0);
+            setInterval("document.getElementById('studniowka').innerHTML=ileDni(2023, 2, 5, 19, 0, 0)", 1000);
+            document.getElementById('matura').innerHTML=ileDni(2023, 5, 1, 9, 0, 0);
+            setInterval("document.getElementById('matura').innerHTML=ileDni(2023, 5, 1, 9, 0, 0)", 1000);
+            document.getElementById('wakacje').innerHTML=ileDni(2023, 6, 24, 0, 0, 0);
+            setInterval("document.getElementById('wakacje').innerHTML=ileDni(2023, 6, 24, 0, 0, 0)", 1000);
+            }
+    </script>
+</head>
+<body>
+    <div id="pagr">
+        <h1>KALENDARZ ODLICZANIA</h1>
+    </div>
+    <div id="pale">
+    <h2>DO STUDNIÓWKI</h2>
+    <p id="studniowka"></p>
+    </div>
+    <div id="pasr">
+       <h2>DO MATURY</h2>
+       <p id="matura"></p>
+    </div>
+    <div id="papr">
+       <h2>DO WAKACJI</h2>
+       <p id="wakacje"></p>
+    </div>
+    <div id="stopka">
+       <a>Opracował: Piotr Cipior</a>
+    </div>
+</body>
+</html>

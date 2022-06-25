@@ -1,0 +1,62 @@
+.baner{
+background-color: #829EB9;
+height: 50px;
+font-family: Arial;
+text-align: center;
+}
+
+.panel_lewy{
+background-color: #B3C6D9;
+height: 600px;
+width: 25%;
+float: left;
+}
+
+.panel_prawy{
+background-color: #E0E9F1;
+height: 600px;
+width: 75%;
+text-align: center;
+float: left;
+}
+
+.stopka{
+background-color: #829EB9;
+font-family: Arial;
+text-align: right;
+}	
+
+img{
+	margin: 30px;
+	padding: 10px;
+	border-style: dashed;
+	border-width: 2px;
+	border-color: #B3C6D9;
+}
+
+table {
+	margin: 30px;
+	border-style: solid;
+	border-width: 2px;
+	width: 70%;
+	border-collapse: collapse;
+}
+
+td, tr{
+	border: 2px solid #B3C6D9;
+	border: 2px solid;
+}
+
+th{
+ background-color: #B3C6D9;
+ border: 2px solid;
+}
+
+.wiersz:hover {
+  background-color: #829EB9;
+   color:white;
+}
+p{
+margin: 30px
+}
+

@@ -1,0 +1,60 @@
+#banerj{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+#banert{
+    width: 25%;
+    height: 200px;
+    float: left;
+}
+#banerd{
+    text-align: center;
+    width: 50%;
+    height: 200px;
+    font-size: 250%;
+    float: left;
+}
+#glowny{
+    background-color: RGB(0, 0, 128);
+    padding: 60px;
+    text-transform: uppercase;
+}
+#stopkaj{
+    text-align: center;
+    width: 50%;
+    float: left;
+    padding-top: 30px;
+    clear: both;
+}
+#stopkad{
+    text-align: right;
+    width: 50%;
+    float: left;
+    padding-top: 60px;
+    
+}
+body{
+    font-family: Garamond;
+    background-color: RGB(30, 144, 255);
+    color: white;
+    clear: both;
+}
+a{
+    padding: 20px;
+    font-size: 200%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: RGB(192, 192, 192);
+}
+a:hover{
+    background-color: RGB(192, 192, 192)
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+  border: 1px solid RGB(192, 192, 192);
+    padding: 10px;
+}

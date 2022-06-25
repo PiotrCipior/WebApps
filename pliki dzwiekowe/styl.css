@@ -1,0 +1,55 @@
+img{
+height: 100px;
+}
+
+.baner{
+	background-color: #00CCCC;
+	color: black;
+	text-align: center;
+	padding:25px 0;
+	height: 100px;
+}
+
+.nuty{
+	width:50%;
+	float: left;
+}
+
+.tekst{
+	width:50%;
+	float: left;
+
+}
+
+.lewy{
+	background-color: #808080;
+	width:40%;
+	height:400px;
+	float: left;
+}
+
+.prawy{
+	background-color: #C0C0C0;
+	text-align: center;
+	width:60%;
+	height:400px;
+	float: left;
+	color: royalblue;
+	text-align: center;
+}
+
+.dolny{
+	background-color: #00CCCC;
+	text-align: left;
+	height: 160px;
+	padding:180px;
+}
+
+.stopka{
+	background-color: #4E885C;
+	color: orange;
+}
+
+ul{
+list-style-type: circle;
+}

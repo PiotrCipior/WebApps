@@ -1,0 +1,61 @@
+html{
+	font-family: Verdana;
+}
+.baner{
+	height: 80px;
+	background-color: #9692B1;
+	color: white;
+	text-align: center;
+}
+
+.lewy{
+	background-color: #9692B1;
+	color: white;
+	width:20%;
+	float: left;
+	height: 750px;
+}
+
+.prawy1{
+	background-color: #FFF4CC;
+	color: black;
+	width:80%;
+	float: left;
+	height: 300px;
+	text-align: center;
+}
+
+.prawy2{
+	background-color: #DBCC93;
+	color: black;
+	width:80%;
+	float: left;
+	height: 450px;
+	text-align: center;
+}
+
+.stopka{
+	background-color: #9692B1;
+	color: white;
+	text-align: right;
+}
+
+#obrpd {
+	border-width: 4px;
+	border-style: solid;
+	border-color: #9692B1;
+}
+
+#obrpg {
+	width: 15%;
+	padding: 20px;
+}
+ 
+ #odn {
+	 color: white;
+ }
+ 
+ #obrpd:hover {
+	 border-color: grey;
+ }
+ 
