@@ -1,1 +1,1 @@
-Projekty z tecnikum kierunku technik informatyk tworzone w html, php, javascript z użyciem css oraz implementacją bazy danych w sql.
+Projects from IT technical school made in html, php, javascript with css and with implementation of sql database.
